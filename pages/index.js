@@ -1,4 +1,5 @@
 import Login from "@/components/Login";
+import Registro from "@/components/Registro";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -36,6 +37,7 @@ export default function Home() {
      handleChange={handleChange}
      handleSubmit={handleSubmit}
      />
+     <Registro/>
     </>
   );
 }

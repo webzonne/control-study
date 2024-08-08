@@ -23,24 +23,23 @@ export default function Login({handleSubmit, handleChange}) {
               placeholder="Usuario"
             />
           </div>
-          <div className="">
+          <div className="mb-6">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
               Contraseña
             </label>
             <input
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
               id="password"
               type="password"
               placeholder="**********"
             />
           </div>
-          <p className='text-blue-900 mb-6 mt-2 cursor-pointer transition duration-300 ease-in-out hover:underline'>No te has registrado?</p>
           <div className="flex items-center justify-between">
             <button
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
               type="submit"
             >
-              Iniciar Sesión
+              Registrar
             </button>
           </div>
         </form>
